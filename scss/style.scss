@@ -1,0 +1,57 @@
+
+.bg-black{
+    background: #000;
+    color: #fff;
+}
+  
+#main-header{
+    img{
+        width: 100%;
+        height: 324px;
+    }
+}
+
+ a{
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+
+.fa{
+    font-size: 2em;
+    color: #fff;
+}
+
+
+.port-item{
+    width: 30%;
+    .fa{
+        font-size: 2em;
+    }
+}
+
+.port-item:hover{
+        opacity: 0.8;
+        cursor: pointer;
+    }
+
+#download-btn{
+    a:hover{
+        background-color: black;
+        color: white;
+    }
+}
+
+
+
+@media screen and (min-width:992px) and (max-width:1199px){
+    img{
+        height: 300px;
+    }
+}
+
